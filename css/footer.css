@@ -5,6 +5,7 @@
     text-align: center;
     background: #e3e6f3a7; /*transparent*/
     backdrop-filter: blur(30px); /*blur*/
+    bottom: 0;
   }
   
   .footer .link  {
