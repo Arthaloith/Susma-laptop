@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>amogus store</title>
+    <link rel="stylesheet" type="text/css" href="css/template/base.css">
+    <link rel="stylesheet" type="text/css" href="css/template/header.css">
+    <link rel="stylesheet" type="text/css" href="css/template/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/template/loginform.css">
     <link rel="stylesheet" type="text/css" href="css/product.css">
-    <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <script src="js/loginpanel.js"></script>
+    <script src="https://kit.fontawesome.com/f1e51c2d13.js" crossorigin="anonymous"></script>
+
     <script src="https://kit.fontawesome.com/f1e51c2d13.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -15,11 +20,12 @@
         <div>
             <ul class="navbar">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="product.html" class="active">Products</a></li>
                 <li><a href="news.html">News</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li><a class="loginBtn" onclick="openForm()"><i class="fa-solid fa-user"></i></a></li>
             </ul>
         </div>
     </section>
@@ -29,21 +35,139 @@
         <p>All product now cost 100000000% more!</p>
     </section>
 
-    <section class="products">
+    <div class="product-list">
+
+    </div>
+
+    <section id="product1" class="section-p1">
         <div class="product-container">
             <div class="product">
-                <img src="" alt="">
-                <div class="product-name">
-                    <span>Sustop</span>
-                    <h5>Sustop ABCEFG</h5>
+                <img src="assets/products/pro1.jpg" alt="">
+                <div class="product-info">
+                    <span>Susphone</span>
+                    <h5>SusPhone X1</h5>
                     <div class="reviews">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star" style="color: gray;"></i>
                     </div>
+                    <h4>9,999$</h4>
                 </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="assets/products/chadphone.jpg" alt="">
+                <div class="product-info">
+                    <span>Susphone</span>
+                    <h5>SusPhone ProMax</h5>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star" style="color: gray;"></i>
+                    </div>
+                    <h4>9,999$</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="assets/products/Realityphone.jpg" alt="">
+                <div class="product-info">
+                    <span>Susphone</span>
+                    <h5>SusPhone Elite</h5>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star" style="color: gray;"></i>
+                    </div>
+                    <h4>9,999$</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="assets/products/smol.jpg" alt="">
+                <div class="product-info">
+                    <span>Susphone</span>
+                    <h5>SusPhone Ultra</h5>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star" style="color: gray;"></i>
+                    </div>
+                    <h4>9,999$</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="assets/products/lmaophone.jpg" alt="">
+                <div class="product-info">
+                    <span>Susphone</span>
+                    <h5>SusPhone Plus</h5>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star" style="color: gray;"></i>
+                    </div>
+                    <h4>9,999$</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="assets/products/stfuphon.jpg" alt="">
+                <div class="product-info">
+                    <span>Susphone</span>
+                    <h5>SusPhone Lite</h5>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star" style="color: gray;"></i>
+                    </div>
+                    <h4>9,999$</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="assets/products/mysteryphone.jpg" alt="">
+                <div class="product-info">
+                    <span>Susphone</span>
+                    <h5>Susphone Mystery+</h5>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star" style="color: gray;"></i>
+                    </div>
+                    <h4>9,999$</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="assets/products/pro1.jpg" alt="">
+                <div class="product-info">
+                    <span>Susphone</span>
+                    <h5>SusPhone Evo</h5>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star" style="color: gray;"></i>
+                    </div>
+                    <h4>9,999$</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
         </div>
     </section>
