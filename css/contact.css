@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.contacts{
+    width:50%;
+    height:650px;
+    float:left;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap:20px;
+}
+#contactinfo{
+    color:black;
+}
+.contacts li{
+    list-style-type:none;
+}
+.contacts a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.contacts a:hover {
+    text-decoration: underline;
+    color:red;
+}
+.contacts a:active{
+    color:aquamarine;
+}
+.location iframe{
+    width:50%;
+    height:650px;
+    padding:70px;
+}
