@@ -18,6 +18,7 @@
 #product1 {
   text-align: center;
 }
+
 #product1 .product-container {
   display: flex;
   justify-content: space-between;
