@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    transition: ease 0.7s;
   }
   
   .navbar li {
