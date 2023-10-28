@@ -1,14 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'League Spartan', sans-serif;
-}
-
-/* --------------------------------------end of base styles-------------------------------------- */
-
 .page-header {
   background-image: url(../assets/banner1.jpg);
   width: 100%;
@@ -40,6 +29,7 @@
   cursor: pointer;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
   margin: 15px 0;
+  transition: 0.2s ease;
 }
 
 #product1 .product-container:hover {
@@ -51,7 +41,30 @@
   border-radius: 20px;
 }
 
-#product1 .product-info {
+#product1 .product-container .product-info {
   text-align: center;
   padding: 10px 0;
+}
+
+#product1 .product-container .product-info span {
+  color: #606063;
+  font-size: 12px;
+}
+
+#product1 .product-container .product-info h5 {
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+#product1 .product-container .product-info i {
+  font-size: 14px;
+  color: gold;
+}
+
+#product1 .product-container .product-info h4 {
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #088178;
 }
