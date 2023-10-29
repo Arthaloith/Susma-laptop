@@ -1,0 +1,37 @@
+main img{
+  width: 100px;
+  position: fixed;
+  top: 300px;
+  left:-300px;
+  animation: slideright1;
+  animation-duration: 1.5s;
+}
+.content {
+    padding: 50px;
+    height:575px
+}
+.content h3:hover{
+    color:aqua;
+}
+.content img{
+  float:left;
+}
+.paragraph {
+    display: none;
+    transform:translate(0px);
+    animation: slideright;
+    animation-duration: 1.5s;
+  }
+  .heya {
+    position:fixed;
+    top:70px;
+    right: 0px;
+    width:200px;
+  }
+  @keyframes slideright{
+    from {transform:translateX(-1500px);}
+  }
+  @keyframes slideright1{
+    to {transform:translateX(300px);}
+  }
+
