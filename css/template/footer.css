@@ -1,12 +1,12 @@
 /* Footer */
 .footer {
-    background-color: #E3E6F3;
-    padding: 20px;
-    text-align: center;
-    background: #e3e6f3a7; /*transparent*/
-    backdrop-filter: blur(30px); /*blur*/
-    bottom: 0;
-  }
+  background-color: #E3E6F3;
+  padding: 20px;
+  text-align: center;
+  background: #e3e6f3a7; /*transparent*/
+  backdrop-filter: blur(30px); /*blur*/
+  bottom: 0;
+}
   
   .footer .link  {
     display: flex;
