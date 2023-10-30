@@ -41,3 +41,14 @@
   font-size: 40px;
 }
 
+/* Policy Page for saving saving space*/
+.policy ul{
+  list-style-type:circle;
+}
+.policycontent{
+  height:600px;
+  padding:50px;
+}
+.announcement{
+  color:black;
+}
