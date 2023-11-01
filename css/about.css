@@ -7,8 +7,12 @@ main img{
   animation-duration: 1.5s;
 }
 .content {
-    padding: 50px;
-    height:575px
+  font-size: 30px;
+  padding: 50px;
+  height:575px
+}
+.content p {
+  font-size: 30px;
 }
 .content h3:hover{
     color:aqua;
@@ -16,13 +20,8 @@ main img{
 .content img{
   float:left;
 }
-.paragraph {
-    display: none;
-    transform:translate(0px);
-    animation: slideright;
-    animation-duration: 1.5s;
-  }
-  .heya {
+  
+.heya {
     position:fixed;
     top:70px;
     right: 0px;
