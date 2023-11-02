@@ -1,2 +1,2 @@
 # Susma-laptop
-final project for web dev course
+Final project for web dev course

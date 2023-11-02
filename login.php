@@ -3,44 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>amogus store</title>
+    <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/template/base.css">
     <link rel="stylesheet" type="text/css" href="css/template/header.css">
     <link rel="stylesheet" type="text/css" href="css/template/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
-    <script src="js/loginpanel.js"></script>
     <script src="https://kit.fontawesome.com/f1e51c2d13.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body style="background-image: url(assets/bg1.jpg);">
     <section class="header">
         <a href="#" class="logo"><img src="assets/sus.jpg" alt="" style="width: 50px; height: 40px;"></a>
         <div>
             <ul class="navbar">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="product.html">Products</a></li>
                 <li><a href="news.html">News</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
                 <li><a href="signup.php"><i class="fa-solid fa-user-plus"></i></a></li>
-                <li><a href="login.php"><i class="fa-solid fa-right-to-bracket"></i></a></li>
+                <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a></li>
             </ul>
         </div>
     </section>
-
-    <section class="policycontent">
-        <div class="policy">
-            <h2 class="announcement">We're updating our privacy policy!</h2>
-            <p>We're updating our privacy policy in preparation for the EU's General Data Protection Regulations (GDPR) later this month. Although these changes are spurred by European law, we think privacy is super important and so these changes will apply to everyone, no matter where you're located.</p>
-            <p>Here's the quick summary:</p>
-            <ul>
-                <li>We aren't asking to collect more data or use your personal data differently — instead, we're being more specific on how we use the information we collect, how long we keep that data, and the rights you have regarding it.</li>
-                <li>As part of that, we're also adding information about how you can control the usage of your personal data and download the data that you've provided to us.</li>
-                <li>Finally, we're providing more clarity around the legal bases we use to process your information, including providing the service to you, complying with the law, improving our services, fighting abuse on the system, and developing new features for you.</li>
-            </ul>
-        </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="signup-form">
+        <h2 style="color: aqua;">Log in</h2>
+        <form action="incl/login.php" method="post">
+            <input type="text" name="uid" placeholder="email or username...">
+            <input type="password" name="pwd" placeholder="password...">
+            <button type="submit" name="submit">Log in</button>
+            <?php
+            if (isset($_GET["error"])) {
+                if ($_GET["error"] == "emptyinput") {
+                    echo "<p>Fill in all fields!</p>";
+                } else if ($_GET["error"] == "wronglogin") {
+                    echo "<p>Incorrect username or password</p>";
+                } 
+            }
+            ?>
+        </form>
     </section>
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <section class="footer">
         <footer>
             <p>&copy; 2023 Susma. All rights reserved. | Designed by <a href="https://github.com/Arthaloith">Amogus</a><br></p>
@@ -50,6 +72,6 @@
                 <a href="index.html">Back to homepage</a>
             </div>    
         </footer>
-    </section>    
+    </section>
 </body>
 </html>
