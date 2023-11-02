@@ -1,3 +1,7 @@
+<?php
+    include_once './template/header.php'
+?>
+
 <!doctype html>
 <head>
     <script src="https://kit.fontawesome.com/f1e51c2d13.js" crossorigin="anonymous"></script>
@@ -6,32 +10,17 @@
     <meta name="author" content="Arthaloid, Awwnya">
     <meta name="keywords" content="Contact, email, numbers, address">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/template/base.css">
-    <link rel="stylesheet" type="text/css" href="css/template/header.css">
-    <link rel="stylesheet" type="text/css" href="css/template/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/account.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" type="text/css" href="../css/template/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/template/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/template/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/account.css">
+    <link rel="stylesheet" href="../css/contact.css">
 
     <link rel="icon" type="img/jpg" href="assets/sus.jpg">
 
     <title>Contact s-Us!</title>
 </head>
 <body>
-    <section class="header">
-        <a href="#" class="logo"><img src="assets/sus.jpg" alt="" style="width: 50px; height: 40px;"></a>
-        <div>
-            <ul class="navbar">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="product.html">Products</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
-                <li><a href="signup.php"><i class="fa-solid fa-user-plus"></i></a></li>
-                <li><a href="login.php"><i class="fa-solid fa-right-to-bracket"></i></a></li>
-            </ul>
-        </div>
-    </section>
     <div class="content">
         <div class="contacts">
             <h2 id="contactinfo">Contact us here!</h2>
@@ -49,17 +38,12 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1520.9056237910838!2d145.1589318614291!3d67.89550126047467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x181609431fc2158f!2zNjfCsDUzJzQ2LjAiTiAxNDXCsDA5JzM1LjYiRQ!5e1!3m2!1sen!2s!4v1673673742105!5m2!1sen!2s" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
-
-
-    <section class="footer">
-        <footer>
-            <p>&copy; 2023 Susma. All rights reserved. | Designed by <a href="https://github.com/Arthaloith">Amogus</a><br></p>
-            <div class="link">
-                <a href="policy.html">Privacy policy</a>
-                <a href="terms.html">Terms of Service</a>
-                <a href="index.html">Back to homepage</a>
-            </div>    
-        </footer>
-    </section>
 </body>
 </html>
+<?php
+    include_once './template/newsletter.php'
+?>
+
+<?php
+    include_once './template/footer.php'
+?>

@@ -1,32 +1,22 @@
+<?php
+    include_once './template/header.php'
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>amogus store</title>
-    <link rel="stylesheet" type="text/css" href="css/template/base.css">
-    <link rel="stylesheet" type="text/css" href="css/template/header.css">
-    <link rel="stylesheet" type="text/css" href="css/template/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/product.css">
+    <link rel="stylesheet" type="text/css" href="../css/template/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/template/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/template/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/product.css">
     <script src="js/loginpanel.js"></script>
     <script src="https://kit.fontawesome.com/f1e51c2d13.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section class="header">
-        <a href="#" class="logo"><img src="assets/sus.jpg" alt="" style="width: 50px; height: 40px;"></a>
-        <div>
-            <ul class="navbar">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="product.html" class="active">Products</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
-                <li><a href="signup.php"><i class="fa-solid fa-user-plus"></i></a></li>
-                <li><a href="login.php"><i class="fa-solid fa-right-to-bracket"></i></a></li>
-            </ul>
-        </div>
-    </section>
+   
 
     <section class="page-header">
         <h2>#staybankrupted</h2>
@@ -39,8 +29,8 @@
 
     <section id="product1" class="section-p1">
         <div class="product-container">
-            <div class="product">
-                <img src="assets/products/pro1.jpg" alt="">
+            <div class="product" onclick="window.location.href='../detailproducts/X1.php';">
+                <img src="../assets/products/pro1.jpg" alt="">
                 <div class="product-info">
                     <span>Susphone</span>
                     <h5>SusPhone X1</h5>
@@ -55,8 +45,8 @@
                 </div>
                 <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
-            <div class="product">
-                <img src="assets/products/chadphone.jpg" alt="">
+            <div class="product"  >
+                <img src="../assets/products/chadphone.jpg" alt="">
                 <div class="product-info">
                     <span>Susphone</span>
                     <h5>SusPhone ProMax</h5>
@@ -71,8 +61,8 @@
                 </div>
                 <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
-            <div class="product">
-                <img src="assets/products/Realityphone.jpg" alt="">
+            <div class="product" onclick="window.location.href='../detailproducts/elite.php';">
+                <img src="../assets/products/Realityphone.jpg" alt="">
                 <div class="product-info">
                     <span>Susphone</span>
                     <h5>SusPhone Elite</h5>
@@ -87,8 +77,8 @@
                 </div>
                 <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
-            <div class="product">
-                <img src="assets/products/smol.jpg" alt="">
+            <div class="product" onclick="window.location.href='../detailproducts/ultra.php';">
+                <img src="../assets/products/smol.jpg" alt="">
                 <div class="product-info">
                     <span>Susphone</span>
                     <h5>SusPhone Ultra</h5>
@@ -103,8 +93,8 @@
                 </div>
                 <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
-            <div class="product">
-                <img src="assets/products/lmaophone.jpg" alt="">
+            <div class="product" onclick="window.location.href='../detailproducts/plus.php';">
+                <img src="../assets/products/lmaophone.jpg" alt="">
                 <div class="product-info">
                     <span>Susphone</span>
                     <h5>SusPhone Plus</h5>
@@ -119,8 +109,8 @@
                 </div>
                 <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
-            <div class="product">
-                <img src="assets/products/stfuphon.jpg" alt="">
+            <div class="product" onclick="window.location.href='../detailproducts/lite.php';">
+                <img src="../assets/products/stfuphon.jpg" alt="">
                 <div class="product-info">
                     <span>Susphone</span>
                     <h5>SusPhone Lite</h5>
@@ -135,8 +125,8 @@
                 </div>
                 <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
-            <div class="product">
-                <img src="assets/products/mysteryphone.jpg" alt="">
+            <div class="product" onclick="window.location.href='../detailproducts/mysteryplus.php';">
+                <img src="../assets/products/mysteryphone.jpg" alt="">
                 <div class="product-info">
                     <span>Susphone</span>
                     <h5>Susphone Mystery+</h5>
@@ -151,8 +141,8 @@
                 </div>
                 <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
-            <div class="product">
-                <img src="assets/products/pro1.jpg" alt="">
+            <div class="product" onclick="window.location.href='../detailproducts/evo.php';">
+                <img src="../assets/products/pro1.jpg" alt="">
                 <div class="product-info">
                     <span>Susphone</span>
                     <h5>SusPhone Evo</h5>
@@ -170,15 +160,13 @@
         </div>
     </section>
 
-    <section class="footer">
-        <footer>
-            <p>&copy; 2023 Susma. All rights reserved. | Designed by <a href="https://github.com/Arthaloith">Amogus</a><br></p>
-            <div class="link">
-                <a href="policy.html">Privacy policy</a>
-                <a href="terms.html">Terms of Service</a>
-                <a href="index.html">Back to homepage</a>
-            </div>    
-        </footer>
-    </section>
+    
 </body>
 </html>
+<?php
+    include_once './template/newsletter.php'
+?>
+
+<?php
+    include_once './template/footer.php'
+?>

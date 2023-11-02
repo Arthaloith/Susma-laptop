@@ -1,0 +1,54 @@
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0px;
+    background-image: url("../assets/banner2.png");
+
+}
+
+.newstext {
+    flex-basis: 60%;
+}
+
+.newstext h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 100px;
+    padding-top: 20px;
+    color: white;
+}
+
+.newstext p {
+    font-size: 17px;
+    color: lightskyblue;
+    padding-left: 100px;
+    
+}
+
+.form {
+    flex-basis: 35%;
+}
+
+.form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}

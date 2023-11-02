@@ -1,3 +1,7 @@
+<?php
+    include_once './template/header.php'
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,33 +10,18 @@
     <meta name="description" content="Contact us">
     <meta name="author" content="Arthaloid, Awwnya">
     <meta name="keywords" content="who we are, learn more, about, about us">
-    <link rel="stylesheet" type="text/css" href="css/template/base.css">
-    <link rel="stylesheet" type="text/css" href="css/template/header.css">
-    <link rel="stylesheet" type="text/css" href="css/template/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/home.css">
-    <link rel="stylesheet" type="text/css" href="css/terms.css">
+    <link rel="stylesheet" type="text/css" href="../css/template/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/template/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/template/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/home.css">
+    <link rel="stylesheet" type="text/css" href="../css/terms.css">
     <script src="js/loginpanel.js"></script>
     <script src="js/aboutdrop.js"></script>
     <script src="https://kit.fontawesome.com/f1e51c2d13.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="img/jpg" href="assets/sus.jpg">
+    <link rel="icon" type="img/jpg" href="../assets/sus.jpg">
     <title>About us</title>
 </head>
 <body>
-    <section class="header">
-        <a href="#" class="logo"><img src="assets/sus.jpg" alt="" style="width: 50px; height: 40px;"></a>
-        <div>
-            <ul class="navbar">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="product.html">Products</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
-                <li><a href="signup.php"><i class="fa-solid fa-user-plus"></i></a></li>
-                <li><a href="login.php"><i class="fa-solid fa-right-to-bracket"></i></a></li>
-            </ul>
-        </div>
-    </section>
     <br>
     <br>
     
@@ -264,15 +253,9 @@
         </p>
     </div>
 </main>
-
-    <section class="footer">
-        <footer>
-            <p>&copy; 2023 Susma. All rights reserved. | Designed by <a href="https://github.com/Arthaloith">Amogus</a><br></p>
-            <div class="link">
-                <a href="policy.html">Privacy policy</a>
-                <a href="terms.html">Terms of Service</a>
-                <a href="index.html">Back to homepage</a>
-            </div>    
-        </footer>
-    </section>
 </body>
+</html>
+
+<?php
+    include_once './template/footer.php'
+?>
