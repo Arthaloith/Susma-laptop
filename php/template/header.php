@@ -37,8 +37,8 @@
                 <li><a href="contact.php" class="<?php echo isActivePage('contact.php'); ?>">Contact</a></li>
                 <?php
                     if (isset($_SESSION["userid"])) {
-                        echo "<li><a href='incl/profile.php' class='" . isActivePage('incl/profile.php') . "'>Profile</a></li>";
-                        echo "<li><a href='incl/logout.php'>Logout</a></li>"; 
+                        echo "<li><a href='../php/profile.php' class='" . isActivePage('../php/profile.php') . "'>Profile</a></li>";
+                        echo "<li><a href='../incl/logout.php'>Logout</a></li>"; 
                     } else {
                         echo "<li><a href='login.php' class='" . isActivePage('login.php') . "'><i class='fas fa-sign-in-alt'></i></a></li>";
                         echo "<li><a href='signup.php' class='" . isActivePage('signup.php') . "'><i class='fas fa-user-plus'></i></a></li>";

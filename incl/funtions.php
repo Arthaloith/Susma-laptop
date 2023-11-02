@@ -108,7 +108,7 @@ function loginUser($conn, $username, $pwd) {
         session_start();
         $_SESSION["userid"] = $uidExists["usersId"];
         $_SESSION["useruid"] = $uidExists["usersUid"];
-        header("Location: ../index.php");
+        header("Location: ../php/index.php");
         exit();
     }
 }
@@ -127,7 +127,7 @@ function addEmail($conn, $email) {
     $sql = "INSERT INTO newsletter(email) VALUES (?);";
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
-        header("Location: ../index.php?error=stmtfailed");
+        header("Location: ../php/index.php?error=stmtfailed");
         exit();
     }
 
@@ -137,5 +137,24 @@ function addEmail($conn, $email) {
 
     $currentPage = $_SERVER["REQUEST_URI"];
     header("Location: " . $currentPage . "?error=none");
+    exit();
+}
+
+function deleteUser($conn, $userId) {
+    $sql = "DELETE FROM users WHERE usersId = ?;";
+    $stmt = mysqli_stmt_init($conn);
+    if (!mysqli_stmt_prepare($stmt, $sql)) {
+        header("Location: ../signup.php?error=stmtfailed");
+        exit();
+    }
+
+    mysqli_stmt_bind_param($stmt, "i", $userId);
+    mysqli_stmt_execute($stmt);
+    mysqli_stmt_close($stmt);
+
+    // Perform any additional cleanup or related tasks if required
+
+    // Redirect the user to the desired page after successful deletion
+    header("Location: ../signup.php?success=true");
     exit();
 }

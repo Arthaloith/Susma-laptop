@@ -28,7 +28,7 @@
     <br>
     <section class="signup-form">
         <h2 style="color: aqua;">Log in</h2>
-        <form action="incl/login.php" method="post">
+        <form action="..\incl\login.php" method="post">
             <input type="text" name="uid" placeholder="email or username...">
             <input type="password" name="pwd" placeholder="password...">
             <button type="submit" name="submit">Log in</button>
