@@ -56,16 +56,19 @@
             <tr>
                 <th>ID</th>
                 <th>Name</th>
+                <th>Team #</th>
                 <th>Worked On</th>
             </tr>
             <tr>
                 <td>N/A</td>
                 <td>Huynh Thanh Phat</td>
+                <td>N/A</td>
                 <td>ToS, Policy, Adding Image and Wrote Paragraphs</td>
             </tr>
             <tr>
                 <td>207CT40291</td>
                 <td>Nguyen Manh Hung</td>
+                <td>Team 2</td>
                 <td>Everything Else</td>
             </tr>
         </table>
