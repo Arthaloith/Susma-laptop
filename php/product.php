@@ -45,7 +45,7 @@
                 </div>
                 <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
-            <div class="product"  >
+            <div class="product" onclick="window.location.href='../detailproducts/promax.php';">
                 <img src="../assets/products/chadphone.jpg" alt="">
                 <div class="product-info">
                     <span>Susphone</span>
