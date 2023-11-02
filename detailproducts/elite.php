@@ -20,23 +20,23 @@
     
 <section id="prodetails" class="section-p1">
     <div class="single-pro-image">
-        <img src="../assets/products/chadphone.jpg" width="50%" id="MainImg" alt="">
+        <img src="../assets/products/Elite/Elite-1.jpg" width="50%" id="MainImg" alt="">
         <div class="small-img-group">
             <div class="small-img-col">
-                <img src="../assets/products/chadphone.jpg" width="100%" class="small-img" alt="">
+                <img src="../assets/products/Elite/Elite-1.jpg" width="50%" class="small-img" alt="">
             </div>
             <div class="small-img-col">
-                <img src="../assets/products/Omega Based Susma Chadphone/1.jpg" width="70%" class="small-img" alt="">
+                <img src="../assets/products/Elite/Elite-2.jpg" width="50%" class="small-img" alt="">
             </div>
             <div class="small-img-col">
-                <img src="../assets/products/Omega Based Susma Chadphone/2.jpg" width="70%" class="small-img" alt="">
+                <img src="../assets/products/Elite/Elite-3.jpg" width="50%" class="small-img" alt="">
             </div>
         </div>
     </div>
 
     <div class="single-pro-details">
-        <h6><a href="product.php">Home</a> / Omega Based Susma Chadphone</h6>
-        <h4>Omega Based Susma Chadphone</h4>
+        <h6><a href="product.php">Home</a> / Susma Elite</h6>
+        <h4>Susma Elite</h4>
         <h2>$9,999</h2>
         <select name="" id="">
             <option value="">Select Model</option>
@@ -45,17 +45,17 @@
             <option value="">666GB</option>
             <option value="">69420GB</option>
         </select>
-        <input type="number" value="1">
+        <input type="number" min="1" value="1">
         <button class="normal">Add to cart</button>
         <h4>Product details</h4>
-        <span>Introducing the Susma Chadphone, the ultimate audio companion for your daily adventures! Designed with cutting-edge technology and superior craftsmanship, the Susma Chadphone delivers an exceptional audio experience while boasting a sleek and modern design.
+        <span><h4>Introducing the Susma Elite, a rugged phone specially designed to withstand the challenges of an active lifestyle and cater to the needs of sports enthusiasts. Built to endure extreme conditions, the Susma Elite combines durability, performance, and sport-centric features, making it the perfect companion for outdoor adventures.</h4>
         
-        Key Features:
+        <p><b>Key Features:</b></p>
         <ul>
-            <li>Immersive Sound Quality: Experience audio like never before with the Susma Chadphone's immersive sound quality. Equipped with high-fidelity drivers, it delivers crystal-clear highs, rich mids, and deep bass, allowing you to enjoy your favorite music with exceptional clarity and depth.</li>
-            <li>Wireless Convenience: Say goodbye to tangled wires and enjoy the freedom of wireless connectivity. The Susma Chadphone features Bluetooth 5.0 technology, enabling seamless pairing with your smartphone, tablet, or other Bluetooth-enabled devices. Whether you're working out, commuting, or simply relaxing at home, you can enjoy your music without the hassle of wires.</li>
-            <li>Comfortable Fit: The Susma Chadphone is designed with comfort in mind. The adjustable headband and soft, cushioned ear cups provide a snug and comfortable fit, ensuring long-lasting comfort even during extended listening sessions. The lightweight construction further enhances the wearing experience, making it ideal for all-day use.</li>
-            <li>Long Battery Life: With the Susma Chadphone, you can enjoy your favorite tunes for extended periods without worrying about battery life. The built-in rechargeable battery offers an impressive playback time of up to 20 hours on a single charge, keeping you entertained throughout the day. And when it's time to recharge, simply connect the included USB cable and power up in no time.</li>
+            <li><b>Design and Durability:</b> <br> The Susma Elite boasts a robust and rugged design that can withstand the toughest environments. It features a reinforced frame, impact-resistant materials, and certified protection against water, dust, and shock. The phone's exterior is ergonomically designed, ensuring a comfortable grip even during intense activities.</li>
+            <li><b>Display:</b> <br> Equipped with a high-resolution display, the Susma Elite provides crystal-clear visuals, allowing users to view maps, track their progress, and stay connected while on the move. The display is protected by scratch-resistant glass or a specialized rugged screen, ensuring durability even in harsh outdoor conditions.</li>
+            <li><b>Sport-Centric Features:</b> <br> The Susma Elite is packed with features tailored specifically for sports enthusiasts. It includes built-in GPS for accurate tracking of your location and routes, making it ideal for hiking, running, and cycling. The phone may also have a barometer, altimeter, and compass to provide real-time data on altitude, atmospheric pressure, and direction.</li>
+            <li><b>Additional Features:</b> <br> The Susma Elite may include other useful features such as an SOS button for emergencies, a dedicated sports app ecosystem, heart rate monitoring, sleep tracking, and compatibility with popular fitness trackers and accessories.</li>
         </ul>
         </span>
     </div>

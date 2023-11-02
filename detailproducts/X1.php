@@ -20,23 +20,23 @@
     
 <section id="prodetails" class="section-p1">
     <div class="single-pro-image">
-        <img src="../assets/products/chadphone.jpg" width="50%" id="MainImg" alt="">
+        <img src="../assets/products/X1/X1-1.jpg" width="50%" id="MainImg" alt="">
         <div class="small-img-group">
             <div class="small-img-col">
-                <img src="../assets/products/chadphone.jpg" width="100%" class="small-img" alt="">
+                <img src="../assets/products/X1/X1-1.jpg" width="50%" class="small-img" alt="">
             </div>
             <div class="small-img-col">
-                <img src="../assets/products/Omega Based Susma Chadphone/1.jpg" width="70%" class="small-img" alt="">
+                <img src="../assets/products/X1/X1-2.jpg" width="50%" class="small-img" alt="">
             </div>
             <div class="small-img-col">
-                <img src="../assets/products/Omega Based Susma Chadphone/2.jpg" width="70%" class="small-img" alt="">
+                <img src="../assets/products/X1/X1-3.jpg" width="50%" class="small-img" alt="">
             </div>
         </div>
     </div>
 
     <div class="single-pro-details">
-        <h6><a href="product.php">Home</a> / Omega Based Susma Chadphone</h6>
-        <h4>Omega Based Susma Chadphone</h4>
+        <h6><a href="product.php">Home</a> / Susma X1</h6>
+        <h4>Susma X1</h4>
         <h2>$9,999</h2>
         <select name="" id="">
             <option value="">Select Model</option>
@@ -45,17 +45,17 @@
             <option value="">666GB</option>
             <option value="">69420GB</option>
         </select>
-        <input type="number" value="1">
+        <input type="number" min="1" value="1">
         <button class="normal">Add to cart</button>
         <h4>Product details</h4>
-        <span>Introducing the Susma Chadphone, the ultimate audio companion for your daily adventures! Designed with cutting-edge technology and superior craftsmanship, the Susma Chadphone delivers an exceptional audio experience while boasting a sleek and modern design.
+        <span><h4>Introducing the Susma X1, an exquisite anniversary phone designed to commemorate a special milestone in technological innovation. Crafted with precision and elegance, the Susma X1 merges cutting-edge features with a touch of nostalgia, making it a true collector's item.</h4>
         
-        Key Features:
+        <p><b>Key Features:</b></p>
         <ul>
-            <li>Immersive Sound Quality: Experience audio like never before with the Susma Chadphone's immersive sound quality. Equipped with high-fidelity drivers, it delivers crystal-clear highs, rich mids, and deep bass, allowing you to enjoy your favorite music with exceptional clarity and depth.</li>
-            <li>Wireless Convenience: Say goodbye to tangled wires and enjoy the freedom of wireless connectivity. The Susma Chadphone features Bluetooth 5.0 technology, enabling seamless pairing with your smartphone, tablet, or other Bluetooth-enabled devices. Whether you're working out, commuting, or simply relaxing at home, you can enjoy your music without the hassle of wires.</li>
-            <li>Comfortable Fit: The Susma Chadphone is designed with comfort in mind. The adjustable headband and soft, cushioned ear cups provide a snug and comfortable fit, ensuring long-lasting comfort even during extended listening sessions. The lightweight construction further enhances the wearing experience, making it ideal for all-day use.</li>
-            <li>Long Battery Life: With the Susma Chadphone, you can enjoy your favorite tunes for extended periods without worrying about battery life. The built-in rechargeable battery offers an impressive playback time of up to 20 hours on a single charge, keeping you entertained throughout the day. And when it's time to recharge, simply connect the included USB cable and power up in no time.</li>
+            <li><b>Design:</b> <br>The Susma X1 showcases a seamless blend of classic aesthetics and modern design elements. Its sleek, premium body is encased in a lustrous metal frame, exuding a timeless charm. The phone's back panel is adorned with a unique anniversary logo, emphasizing its exclusive status.</li>
+            <li><b>Display:</b> <br>Featuring a generous display, the Susma X1 boasts a large, edge-to-edge OLED screen that immerses users in vibrant visuals. The display is equipped with advanced HDR technology, ensuring stunning color accuracy, deep contrasts, and enhanced viewing angles.</li>
+            <li><b>Performance:</b> <br>Underneath its elegant exterior, the Susma X1 houses a powerhouse of performance. Powered by the latest generation chipset, it delivers exceptional speed, responsiveness, and efficiency. Multitasking is a breeze with ample RAM and storage options, enabling users to seamlessly navigate between apps and store their precious memories.</li>
+            <li><b>Software:</b> <br>Running on the latest iteration of Susma's proprietary operating system, the Susma X1 offers a smooth and intuitive user experience. The software is optimized for enhanced performance and packed with innovative features, including advanced security options, personalized AI recommendations, and a vast ecosystem of apps and services.</li>
         </ul>
         </span>
     </div>

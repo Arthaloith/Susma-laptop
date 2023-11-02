@@ -35,8 +35,8 @@
     </div>
 
     <div class="single-pro-details">
-        <h6><a href="product.php">Home</a> / Omega Based Susma Chadphone</h6>
-        <h4>Omega Based Susma Chadphone</h4>
+        <h6><a href="product.php">Home</a> / Susma Lite</h6>
+        <h4>Susma Lite</h4>
         <h2>$9,999</h2>
         <select name="" id="">
             <option value="">Select Model</option>
@@ -45,17 +45,17 @@
             <option value="">666GB</option>
             <option value="">69420GB</option>
         </select>
-        <input type="number" value="1">
+        <input type="number" min="1" value="1">
         <button class="normal">Add to cart</button>
         <h4>Product details</h4>
-        <span>Introducing the Susma Chadphone, the ultimate audio companion for your daily adventures! Designed with cutting-edge technology and superior craftsmanship, the Susma Chadphone delivers an exceptional audio experience while boasting a sleek and modern design.
+        <span><h4>Introducing the Susma Lite, a budget-friendly smartphone designed to offer essential functionality and usability without compromising on quality. The Susma Lite is the perfect choice for individuals seeking a reliable and affordable device that meets their everyday communication and multimedia needs.</h4>
         
         Key Features:
         <ul>
-            <li>Immersive Sound Quality: Experience audio like never before with the Susma Chadphone's immersive sound quality. Equipped with high-fidelity drivers, it delivers crystal-clear highs, rich mids, and deep bass, allowing you to enjoy your favorite music with exceptional clarity and depth.</li>
-            <li>Wireless Convenience: Say goodbye to tangled wires and enjoy the freedom of wireless connectivity. The Susma Chadphone features Bluetooth 5.0 technology, enabling seamless pairing with your smartphone, tablet, or other Bluetooth-enabled devices. Whether you're working out, commuting, or simply relaxing at home, you can enjoy your music without the hassle of wires.</li>
-            <li>Comfortable Fit: The Susma Chadphone is designed with comfort in mind. The adjustable headband and soft, cushioned ear cups provide a snug and comfortable fit, ensuring long-lasting comfort even during extended listening sessions. The lightweight construction further enhances the wearing experience, making it ideal for all-day use.</li>
-            <li>Long Battery Life: With the Susma Chadphone, you can enjoy your favorite tunes for extended periods without worrying about battery life. The built-in rechargeable battery offers an impressive playback time of up to 20 hours on a single charge, keeping you entertained throughout the day. And when it's time to recharge, simply connect the included USB cable and power up in no time.</li>
+            <li><b>Design:</b> <br>The Susma Lite sports a sleek and compact design that fits comfortably in your hand or pocket. It features a lightweight build and a streamlined profile, making it easy to carry and use on the go. The phone's design focuses on simplicity and functionality, ensuring a user-friendly experience.</li>
+            <li><b>Display:</b> <br>The Susma Lite incorporates a vibrant display that brings your content to life. While the specifics may vary based on the model, you can expect a clear and crisp screen that allows for enjoyable viewing of photos, videos, and web browsing. The display size and resolution are optimized for an immersive visual experience within the budget category.</li>
+            <li><b>Performance:</b> <br>Despite its budget-friendly nature, the Susma Lite offers reliable performance for everyday tasks. It is equipped with a capable processor and sufficient RAM to handle common applications, messaging, web browsing, and multimedia playback smoothly. The phone's performance is optimized to provide a responsive and lag-free user experience.</li>
+            <li><b>Battery Life:</b> <br>The Susma Lite is designed with energy efficiency in mind to ensure a long-lasting battery life. While the specifics may vary depending on the model, you can expect a battery that provides ample power to keep you connected throughout the day. The phone's power management features help maximize battery efficiency, allowing you to stay productive and entertained for longer periods.</li>
         </ul>
         </span>
     </div>
