@@ -27,11 +27,11 @@
 </head>
 <body>
     <section class="header">
-        <a href="../php/index.php" class="logo"><img src="../assets/sus.jpg" alt="" style="width: 50px; height: 40px;"></a>
+        <h1><a href="../php/index.php" class="logo"><img src="../assets/sus.jpg" alt="" style="width: 50px; height: 40px;"></a>SusmaPhone</h1>
         <div>
             <ul class="navbar">
                 <li><a href="index.php" class="<?php echo isActivePage('index.php'); ?>">Home</a></li>
-                <li><a href="./php/product.php" class="<?php echo isActivePage('product.php'); ?>">Products</a></li>
+                <li><a href="product.php" class="<?php echo isActivePage('product.php'); ?>">Products</a></li>
                 <!-- <li><a href="news.php" class="<?php echo isActivePage('news.php'); ?>">News</a></li> -->
                 <li><a href="about.php" class="<?php echo isActivePage('about.php'); ?>">About</a></li>
                 <li><a href="contact.php" class="<?php echo isActivePage('contact.php'); ?>">Contact</a></li>
