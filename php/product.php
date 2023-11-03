@@ -141,7 +141,7 @@
                 <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
             <div class="product" onclick="window.location.href='../detailproducts/evo.php';">
-                <img src="../assets/products/osaker.gif" alt="">
+                <img src="../assets/products/pro1.jpg" alt="">
                 <div class="product-info">
                     <span>Susphone</span>
                     <h5>SusPhone Evo</h5>
@@ -150,7 +150,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star" style="color: gray;"></i>
                     </div>
                     <h4>9,999$</h4>
                 </div>
