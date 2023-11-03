@@ -27,7 +27,7 @@
 </head>
 <body>
     <section class="header">
-        <h1 style="color: black; padding-left: 10px"><a href="../php/index.php" class="logo"><img src="../assets/sus.jpg" alt="" style="width: 50px; height: 40px;"></a>SusmaPhone</h1>
+        <h1 style="color: cyan;"><a href="../php/index.php" class="logo"><img src="../assets/sus.jpg" alt="" style="width: 50px; height: 40px;"></a>SusmaPhone</h1>
         <div>
             <ul class="navbar">
                 <li><a href="index.php" class="<?php echo isActivePage('index.php'); ?>">Home</a></li>

@@ -16,6 +16,7 @@
                     echo "<p style='color: black; font-weight: bold; font-size: 15px'>Please enter email!</p>";
                 } 
             }
+            
             ?>
     </div>
 </section>

@@ -12,6 +12,8 @@ if (isset($_POST["submit"])) {
         exit();
     }
 
+
+
     addEmail($conn, $email);
 } else {
     header("location: ../php/index.php");
