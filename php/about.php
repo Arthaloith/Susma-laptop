@@ -13,7 +13,6 @@
     <link rel="stylesheet" type="text/css" href="../css/template/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/home.css">
     <link rel="stylesheet" type="text/css" href="../css/about.css">
-    <script src="js/loginpanel.js"></script>
     <script src="https://kit.fontawesome.com/f1e51c2d13.js" crossorigin="anonymous"></script>
 </head>
 <body>

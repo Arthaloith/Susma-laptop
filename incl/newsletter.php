@@ -8,7 +8,7 @@ if (isset($_POST["submit"])) {
 
     if (emptyEmailInput($email) !== false) {
         $currentPage = $_SERVER["REQUEST_URI"];
-        header("Location: ../php/index.php?error=emptyinput&return=" . urlencode($currentPage));
+        header("Location: ../php/index.php?error=emptyinput&return=");
         exit();
     }
 

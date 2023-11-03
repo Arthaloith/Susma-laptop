@@ -35,7 +35,7 @@
     </div>
 
     <div class="single-pro-details">
-        <h6><a href="product.php">Home</a> / ProMax</h6>
+        <h6><a href="../php/product.php">Product</a> / ProMax</h6>
         <h4>SusPhone ProMax</h4>
         <h2>$9,999</h2>
         <select name="" id="">

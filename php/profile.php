@@ -46,10 +46,14 @@ if ($row = mysqli_fetch_assoc($result)) {
     <link rel="stylesheet" type="text/css" href="../css/template/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/home.css">
     <link rel="stylesheet" type="text/css" href="../css/profile.css">
-    <script src="js/loginpanel.js"></script>
     <script src="https://kit.fontawesome.com/f1e51c2d13.js" crossorigin="anonymous"></script>
+    <script src="../js/confirmdel.js"></script>
+    <script src="../js/clock.js"></script>
+    
 </head>
-<body>
+<body style="background-image: url(../assets/bg2.jpg);">
+<br>
+<br>
     <div class="container">
         <h1 class="heading">Profile Page</h1>
         <div class="profile">
@@ -59,13 +63,19 @@ if ($row = mysqli_fetch_assoc($result)) {
                 <p><strong>Email:</strong> <?php echo $email; ?></p>
                 <p><strong>Username:</strong> <?php echo $username; ?></p>
             </div>
-
-
-            <form method="POST" action="../incl/delacc.php" onsubmit="return confirm('Are you sure you want to delete your account? This action cannot be undone.');">
+            <form method="POST" action="../incl/delacc.php" onsubmit="return confirmDelete();">
                 <button type="submit" name="delete_account" class="delete-account-button">Delete Account</button>
             </form>
         </div>
     </div>
+
+    <div class="clock-container">
+        <h2 class="clock-heading">Random Clock</h2>
+        <div id="clock" class="clock"></div>
+        <div id="digital-clock"></div>
+    </div>
+    <br>
+    <br><br>
 </body>
 </html>
 

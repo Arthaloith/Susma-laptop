@@ -13,7 +13,7 @@
             <?php
             if (isset($_GET["error"])) {
                 if ($_GET["error"] == "emptyinput") {
-                    echo "<p>Please enter email!</p>";
+                    echo "<p style='color: black; font-weight: bold; font-size: 15px'>Please enter email!</p>";
                 } 
             }
             ?>

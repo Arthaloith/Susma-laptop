@@ -35,8 +35,8 @@
     </div>
 
     <div class="single-pro-details">
-        <h6><a href="product.php">Home</a> / Omega Based Susma Chadphone</h6>
-        <h4>Omega Based Susma Chadphone</h4>
+        <h6><a href="../php/product.php">Product</a> / SusPhone Ultra</h6>
+        <h4>SusPhone Ultra</h4>
         <h2>$9,999</h2>
         <select name="" id="">
             <option value="">Select Model</option>
