@@ -1,5 +1,10 @@
 <?php
-    include_once './template/header.php'
+    include_once './template/header.php';
+    // Check if the 'success' query parameter exists and is set to 'true'
+if (isset($_GET['success']) && $_GET['success'] == 'true') {
+    // Display an alert message
+    echo '<script>alert("Account deleted successfully!");</script>';
+}
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +17,6 @@
     <link rel="stylesheet" type="text/css" href="../css/template/header.css">
     <link rel="stylesheet" type="text/css" href="../css/template/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/home.css">
-    <script src="js/loginpanel.js"></script>
     <script src="https://kit.fontawesome.com/f1e51c2d13.js" crossorigin="anonymous"></script>
 </head>
 <body>

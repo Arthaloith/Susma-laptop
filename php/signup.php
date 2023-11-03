@@ -23,7 +23,7 @@
     <br>
     <section class="signup-form">
         <h2 style="color: aqua;">Sign Up</h2>
-        <form action="incl/signup.php" method="post">
+        <form action="../incl/signup.php" method="post">
             <input type="text" name="name" placeholder="fullname...">
             <input type="text" name="email" placeholder="email...">
             <input type="text" name="uid" placeholder="username...">

@@ -35,7 +35,7 @@
     </div>
 
     <div class="single-pro-details">
-        <h6><a href="product.php">Home</a> / Susma X1</h6>
+        <h6><a href="../php/product.php">Product</a> / Susma X1</h6>
         <h4>Susma X1</h4>
         <h2>$9,999</h2>
         <select name="" id="">

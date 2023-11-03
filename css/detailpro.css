@@ -53,9 +53,24 @@
     outline: none;
 }
 
-#prodetails .single-pro-details button {
+#prodetails .single-pro-details button.normal {
     background-color: darkcyan;
     color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#prodetails .single-pro-details button.normal:hover {
+    background-color: #008b8b;
+}
+
+#prodetails .single-pro-details button.normal:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #008b8b;
 }
 
 #prodetails .single-pro-details span {

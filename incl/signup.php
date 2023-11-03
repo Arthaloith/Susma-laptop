@@ -11,32 +11,32 @@ if (isset($_POST['submit'])) {
     require_once 'funtions.php';
 
     if (emptyInputSignup($name, $email, $username, $pwd, $pwdRepeat) !== false) {
-        header("Location: ../signup.php?error=emptyinput");
+        header("Location: ../php/signup.php?error=emptyinput");
         exit();
     }
 
     if (invalidUid($username) !== false) {
-        header("Location: ../signup.php?error=invaliduid");
+        header("Location: ../php/signup.php?error=invaliduid");
         exit();
     }
     
     if (invalidEmail($email) !== false) {
-        header("Location: ../signup.php?error=invalidemail");
+        header("Location: ../php/signup.php?error=invalidemail");
         exit();
     }
 
     if (pwdMatch($pwd, $pwdRepeat) !== false) {
-        header("Location: ../signup.php?error=mismatchedpassword");
+        header("Location: ../php/signup.php?error=mismatchedpassword");
         exit();
     }
 
     if (uidExists($conn, $username, $email) !== false) {
-        header("Location: ../signup.php?error=usernameoremailtaken");
+        header("Location: ../php/signup.php?error=usernameoremailtaken");
         exit();
     }
 
     createUser($conn, $name, $email, $username, $pwd);
 } else {
-    header("Location: ../signup.php");
+    header("Location: ../php/signup.php");
     exit();
 }
