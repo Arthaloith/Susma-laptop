@@ -27,7 +27,7 @@
 </head>
 <body>
     <section class="header">
-        <a href="../index.php" class="logo"><img src="../assets/sus.jpg" alt="" style="width: 50px; height: 40px;"></a>
+        <a href="../php/index.php" class="logo"><img src="../assets/sus.jpg" alt="" style="width: 50px; height: 40px;"></a>
         <div>
             <ul class="navbar">
                 <li><a href="index.php" class="<?php echo isActivePage('index.php'); ?>">Home</a></li>

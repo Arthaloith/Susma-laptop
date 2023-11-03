@@ -67,7 +67,7 @@ function createUser($conn, $name, $email, $username, $pwd) {
     $sql = "INSERT INTO users(usersName, usersEmail, usersUid, usersPwd) VALUE (?, ?, ?, ?);";
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
-        header("Location: ../signup.php?error=stmtfailed");
+        header("Location: ../php/signup.php?error=stmtfailed");
         exit();
     }
 
@@ -76,7 +76,7 @@ function createUser($conn, $name, $email, $username, $pwd) {
     mysqli_stmt_bind_param($stmt, "ssss", $name, $email, $username, $hashedPwd);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
-    header("Location: ../signup.php?error=none");
+    header("Location: ../php/signup.php?error=none");
     exit();
 }
 
@@ -94,7 +94,7 @@ function loginUser($conn, $username, $pwd) {
     $uidExists = uidExists($conn, $username, $username);
 
     if ($uidExists === false) {
-        header("Location: ../login.php?error=wronglogin");
+        header("Location: ../php/login.php?error=wronglogin");
         exit();
     }
 
@@ -102,7 +102,7 @@ function loginUser($conn, $username, $pwd) {
     $checkPwd = password_verify($pwd, $pwdHashed);
 
     if ($checkPwd === false) {
-        header("Location: ../login.php?error=wronglogin");
+        header("Location: ../php/login.php?error=wronglogin");
         exit();
     } else if ($checkPwd === true) {
         session_start();
@@ -144,17 +144,26 @@ function deleteUser($conn, $userId) {
     $sql = "DELETE FROM users WHERE usersId = ?;";
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
-        header("Location: ../signup.php?error=stmtfailed");
+        header("Location: ../php/signup.php?error=stmtfailed");
         exit();
     }
 
     mysqli_stmt_bind_param($stmt, "i", $userId);
     mysqli_stmt_execute($stmt);
+
+    if (mysqli_stmt_affected_rows($stmt) <= 0) {
+        // No rows affected, deletion failed
+        echo "Deletion failed: " . mysqli_error($conn);
+        header("Location: ../php/profile.php?error=deletionfailed");
+        exit();
+    }
+   
     mysqli_stmt_close($stmt);
 
-    // Perform any additional cleanup or related tasks if required
-
     // Redirect the user to the desired page after successful deletion
-    header("Location: ../signup.php?success=true");
+    session_start();
+    session_unset();
+    session_destroy();
+    header("Location: ../php/index.php?success=true");
     exit();
 }

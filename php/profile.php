@@ -2,7 +2,6 @@
 include_once './template/header.php';
 // Start a session to access session variables
 
-
 // Check if the user is logged in
 if (!isset($_SESSION["userid"])) {
     header("Location: login.php");
@@ -35,8 +34,6 @@ if ($row = mysqli_fetch_assoc($result)) {
     // Handle the case when user information is not found
     exit();
 }
-
-// Display the user profile information
 ?>
 
 <!DOCTYPE html>
@@ -48,22 +45,30 @@ if ($row = mysqli_fetch_assoc($result)) {
     <link rel="stylesheet" type="text/css" href="../css/template/header.css">
     <link rel="stylesheet" type="text/css" href="../css/template/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/home.css">
+    <link rel="stylesheet" type="text/css" href="../css/profile.css">
     <script src="js/loginpanel.js"></script>
     <script src="https://kit.fontawesome.com/f1e51c2d13.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Profile Page</h1>
-    <h2>Welcome, <?php echo $name; ?>!</h2>
-    <p><strong>Name:</strong> <?php echo $name; ?></p>
-    <p><strong>Email:</strong> <?php echo $email; ?></p>
-    <p><strong>Username:</strong> <?php echo $username; ?></p>
+    <div class="container">
+        <h1 class="heading">Profile Page</h1>
+        <div class="profile">
+            <h2 class="welcome">Welcome, <?php echo $name; ?>!</h2>
+            <div class="info">
+                <p><strong>Name:</strong> <?php echo $name; ?></p>
+                <p><strong>Email:</strong> <?php echo $email; ?></p>
+                <p><strong>Username:</strong> <?php echo $username; ?></p>
+            </div>
 
-    <!-- Add additional profile information and customization options as needed -->
 
-    <a href="logout.php">Logout</a> <!-- Provide a logout link -->
+            <form method="POST" action="../incl/delacc.php" onsubmit="return confirm('Are you sure you want to delete your account? This action cannot be undone.');">
+                <button type="submit" name="delete_account" class="delete-account-button">Delete Account</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
 
 <?php
-    include_once './template/footer.php'
+include_once './template/footer.php';
 ?>
