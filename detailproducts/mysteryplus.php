@@ -20,23 +20,23 @@
     
 <section id="prodetails" class="section-p1">
     <div class="single-pro-image">
-        <img src="../assets/products/chadphone.jpg" width="50%" id="MainImg" alt="">
+    <img src="../assets/products/chadphone.jpg" width="50%" id="MainImg" alt="">
         <div class="small-img-group">
             <div class="small-img-col">
-                <img src="../assets/products/chadphone.jpg" width="100%" class="small-img" alt="">
+                <img src="../assets/products/mys-plus/mys-plus-1.jpg" width="50%" class="small-img" alt="">
             </div>
             <div class="small-img-col">
-                <img src="../assets/products/Omega Based Susma Chadphone/1.jpg" width="70%" class="small-img" alt="">
+                <img src="../assets/products/mys-plus/mys-plus-2.jpg" width="50%" class="small-img" alt="">
             </div>
             <div class="small-img-col">
-                <img src="../assets/products/Omega Based Susma Chadphone/2.jpg" width="70%" class="small-img" alt="">
+                <img src="../assets/products/mys-plus/mys-plus-3.jpg" width="50%" class="small-img" alt="">
             </div>
         </div>
     </div>
 
     <div class="single-pro-details">
-        <h6><a href="product.php">Home</a> / Omega Based Susma Chadphone</h6>
-        <h4>Omega Based Susma Chadphone</h4>
+        <h6><a href="product.php">Home</a> / Susma Mystery Plus</h6>
+        <h4>Susma Mystery Plus</h4>
         <h2>$9,999</h2>
         <select name="" id="">
             <option value="">Select Model</option>
@@ -45,17 +45,17 @@
             <option value="">666GB</option>
             <option value="">69420GB</option>
         </select>
-        <input type="number" value="1">
+        <input type="number" min="1" value="1">
         <button class="normal">Add to cart</button>
         <h4>Product details</h4>
-        <span>Introducing the Susma Chadphone, the ultimate audio companion for your daily adventures! Designed with cutting-edge technology and superior craftsmanship, the Susma Chadphone delivers an exceptional audio experience while boasting a sleek and modern design.
+        <span><h4>Introducing The Susma Mystery Plus, an enigmatic and intriguing flip phone that has gained attention for its unique design and mysterious features. While details about the phone are scarce and shrouded in secrecy.</h4>
         
-        Key Features:
+        <p><b>Key Features:</b></p>
         <ul>
-            <li>Immersive Sound Quality: Experience audio like never before with the Susma Chadphone's immersive sound quality. Equipped with high-fidelity drivers, it delivers crystal-clear highs, rich mids, and deep bass, allowing you to enjoy your favorite music with exceptional clarity and depth.</li>
-            <li>Wireless Convenience: Say goodbye to tangled wires and enjoy the freedom of wireless connectivity. The Susma Chadphone features Bluetooth 5.0 technology, enabling seamless pairing with your smartphone, tablet, or other Bluetooth-enabled devices. Whether you're working out, commuting, or simply relaxing at home, you can enjoy your music without the hassle of wires.</li>
-            <li>Comfortable Fit: The Susma Chadphone is designed with comfort in mind. The adjustable headband and soft, cushioned ear cups provide a snug and comfortable fit, ensuring long-lasting comfort even during extended listening sessions. The lightweight construction further enhances the wearing experience, making it ideal for all-day use.</li>
-            <li>Long Battery Life: With the Susma Chadphone, you can enjoy your favorite tunes for extended periods without worrying about battery life. The built-in rechargeable battery offers an impressive playback time of up to 20 hours on a single charge, keeping you entertained throughout the day. And when it's time to recharge, simply connect the included USB cable and power up in no time.</li>
+            <li><b>Design:</b> <br>The Susma Mystery Plus exudes an aura of mystique with its sleek and minimalist design. Its exterior is crafted from a combination of high-quality materials, such as polished metal and tempered glass, giving it a luxurious and futuristic appearance. The phone's flip mechanism is smooth and satisfying, adding an element of nostalgia to its overall charm.</li>
+            <li><b>Display:</b> <br>One of the most captivating aspects of the Susma Mystery Plus is its display. When the phone is closed, the display remains hidden, leaving users to wonder what secrets lie beneath. However, when the device is opened, the screen magically comes to life, revealing a vibrant and edge-to-edge OLED panel. The resolution is rumored to be incredibly sharp, providing an immersive visual experience.</li>
+            <li><b>User Interface:</b> <br>The phone's user interface is said to be highly intuitive yet enigmatic, featuring a custom operating system that is unique to the Susma Mystery Plus. Rumors suggest that navigating through the menus and features of the phone is an experience in itself, with hidden shortcuts and gestures waiting to be discovered.</li>
+            <li><b>Battery Life:</b> <br>Another mysterious aspect of the Susma Mystery Plus is its battery life. While exact details are unknown, rumors suggest that the phone's battery can last for an exceptionally long time, defying the limitations of typical smartphones. Some even claim that the phone harnesses an unknown power source, enabling it to operate for days or even weeks without recharging.</li>
         </ul>
         </span>
     </div>

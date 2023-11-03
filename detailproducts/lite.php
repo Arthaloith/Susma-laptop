@@ -23,13 +23,13 @@
         <img src="../assets/products/chadphone.jpg" width="50%" id="MainImg" alt="">
         <div class="small-img-group">
             <div class="small-img-col">
-                <img src="../assets/products/chadphone.jpg" width="100%" class="small-img" alt="">
+                <img src="../assets/products/Lite/lite-1.jpg" width="50%" class="small-img" alt="">
             </div>
             <div class="small-img-col">
-                <img src="../assets/products/Omega Based Susma Chadphone/1.jpg" width="70%" class="small-img" alt="">
+                <img src="../assets/products/Lite/lite-2.jpg" width="50%" class="small-img" alt="">
             </div>
             <div class="small-img-col">
-                <img src="../assets/products/Omega Based Susma Chadphone/2.jpg" width="70%" class="small-img" alt="">
+                <img src="../assets/products/Lite/lite-3.jpg" width="50%" class="small-img" alt="">
             </div>
         </div>
     </div>
@@ -50,7 +50,7 @@
         <h4>Product details</h4>
         <span><h4>Introducing the Susma Lite, a budget-friendly smartphone designed to offer essential functionality and usability without compromising on quality. The Susma Lite is the perfect choice for individuals seeking a reliable and affordable device that meets their everyday communication and multimedia needs.</h4>
         
-        Key Features:
+        <p><b>Key Features:</b></p>
         <ul>
             <li><b>Design:</b> <br>The Susma Lite sports a sleek and compact design that fits comfortably in your hand or pocket. It features a lightweight build and a streamlined profile, making it easy to carry and use on the go. The phone's design focuses on simplicity and functionality, ensuring a user-friendly experience.</li>
             <li><b>Display:</b> <br>The Susma Lite incorporates a vibrant display that brings your content to life. While the specifics may vary based on the model, you can expect a clear and crisp screen that allows for enjoyable viewing of photos, videos, and web browsing. The display size and resolution are optimized for an immersive visual experience within the budget category.</li>

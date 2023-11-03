@@ -23,20 +23,20 @@
         <img src="../assets/products/chadphone.jpg" width="50%" id="MainImg" alt="">
         <div class="small-img-group">
             <div class="small-img-col">
-                <img src="../assets/products/chadphone.jpg" width="100%" class="small-img" alt="">
+                <img src="../assets/products/chadphone.jpg" width="50%" class="small-img" alt="">
             </div>
             <div class="small-img-col">
-                <img src="../assets/products/promax/1.jpg" width="70%" class="small-img" alt="">
+                <img src="../assets/products/promax/1.jpg" width="50%" class="small-img" alt="">
             </div>
             <div class="small-img-col">
-                <img src="../assets/products/promax/2.jpg" width="70%" class="small-img" alt="">
+                <img src="../assets/products/promax/2.jpg" width="50%" class="small-img" alt="">
             </div>
         </div>
     </div>
 
     <div class="single-pro-details">
-        <h6><a href="product.php">Home</a> / ProMax</h6>
-        <h4>SusPhone ProMax</h4>
+        <h6><a href="product.php">Home</a> / Susma ProMax</h6>
+        <h4>Susma ProMax</h4>
         <h2>$9,999</h2>
         <select name="" id="">
             <option value="">Select Model</option>
@@ -45,17 +45,17 @@
             <option value="">666GB</option>
             <option value="">69420GB</option>
         </select>
-        <input type="number" value="1">
+        <input type="number" min="1" value="1">
         <button class="normal">Add to cart</button>
         <h4>Product details</h4>
-        <span>Introducing the Susma Chadphone, the ultimate audio companion for your daily adventures! Designed with cutting-edge technology and superior craftsmanship, the Susma Chadphone delivers an exceptional audio experience while boasting a sleek and modern design.
+        <span><h4>Introducing the Susma ProMax, a premium smartphone designed with a focus on accessibility and user-friendly features, catering to individuals who may have varying levels of technological experience or capability. It aims to empower users by providing a seamless and intuitive mobile experience.</h4>
         
-        Key Features:
+        <p><b>Key Features:</b></p>
         <ul>
-            <li>Immersive Sound Quality: Experience audio like never before with the Susma Chadphone's immersive sound quality. Equipped with high-fidelity drivers, it delivers crystal-clear highs, rich mids, and deep bass, allowing you to enjoy your favorite music with exceptional clarity and depth.</li>
-            <li>Wireless Convenience: Say goodbye to tangled wires and enjoy the freedom of wireless connectivity. The Susma Chadphone features Bluetooth 5.0 technology, enabling seamless pairing with your smartphone, tablet, or other Bluetooth-enabled devices. Whether you're working out, commuting, or simply relaxing at home, you can enjoy your music without the hassle of wires.</li>
-            <li>Comfortable Fit: The Susma Chadphone is designed with comfort in mind. The adjustable headband and soft, cushioned ear cups provide a snug and comfortable fit, ensuring long-lasting comfort even during extended listening sessions. The lightweight construction further enhances the wearing experience, making it ideal for all-day use.</li>
-            <li>Long Battery Life: With the Susma Chadphone, you can enjoy your favorite tunes for extended periods without worrying about battery life. The built-in rechargeable battery offers an impressive playback time of up to 20 hours on a single charge, keeping you entertained throughout the day. And when it's time to recharge, simply connect the included USB cable and power up in no time.</li>
+            <li><b>Design:</b> <br>The Susma ProMax showcases a sleek and modern design that exudes sophistication. It features a premium build quality, utilizing a combination of durable materials such as metal and glass, ensuring a robust and stylish device. The phone is ergonomically designed, providing a comfortable grip and easy handling for users.</li>
+            <li><b>User Interface:</b> <br>The Susma ProMax incorporates a user interface that is designed to be intuitive and easy to navigate. Its operating system features a clean and organized layout, with large icons and clear labels, making it effortless to locate and access various applications and settings. The interface prioritizes simplicity, ensuring that users can enjoy a seamless smartphone experience.</li>
+            <li><b>Sus-sistant:</b> <br>The Susma ProMax comes equipped with an array of assistive features to cater to users with diverse needs. It offers customizable accessibility options, including adjustable font sizes, high contrast themes, and speech-to-text functionality. The phone also provides voice-guided instructions and prompts, assisting users in performing tasks and navigating through the device.</li>
+            <li><b>Enhanced Communication:</b> <br>The Susma ProMax places a strong emphasis on communication features to ensure seamless connectivity. It offers simplified calling and messaging interfaces, with larger buttons and clear prompts for ease of use. The device also integrates with various communication platforms, enabling users to stay connected through voice and video calls, messaging, and social media applications.</li>
         </ul>
         </span>
     </div>

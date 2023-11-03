@@ -20,23 +20,23 @@
     
 <section id="prodetails" class="section-p1">
     <div class="single-pro-image">
-        <img src="../assets/products/chadphone.jpg" width="50%" id="MainImg" alt="">
+    <img src="../assets/products/chadphone.jpg" width="50%" id="MainImg" alt="">
         <div class="small-img-group">
             <div class="small-img-col">
-                <img src="../assets/products/chadphone.jpg" width="100%" class="small-img" alt="">
+                <img src="../assets/products/ultra/ultra-1.jpg" width="50%" class="small-img" alt="">
             </div>
             <div class="small-img-col">
-                <img src="../assets/products/Omega Based Susma Chadphone/1.jpg" width="70%" class="small-img" alt="">
+                <img src="../assets/products/ultra/ultra-2.jpg" width="50%" class="small-img" alt="">
             </div>
             <div class="small-img-col">
-                <img src="../assets/products/Omega Based Susma Chadphone/2.jpg" width="70%" class="small-img" alt="">
+                <img src="../assets/products/ultra/ultra-3.jpg" width="50%" class="small-img" alt="">
             </div>
         </div>
     </div>
 
     <div class="single-pro-details">
-        <h6><a href="product.php">Home</a> / Omega Based Susma Chadphone</h6>
-        <h4>Omega Based Susma Chadphone</h4>
+        <h6><a href="product.php">Home</a> / Susma Ultra</h6>
+        <h4>Susma Ultra</h4>
         <h2>$9,999</h2>
         <select name="" id="">
             <option value="">Select Model</option>
@@ -45,17 +45,17 @@
             <option value="">666GB</option>
             <option value="">69420GB</option>
         </select>
-        <input type="number" value="1">
+        <input type="number" min="1" value="1">
         <button class="normal">Add to cart</button>
         <h4>Product details</h4>
-        <span>Introducing the Susma Chadphone, the ultimate audio companion for your daily adventures! Designed with cutting-edge technology and superior craftsmanship, the Susma Chadphone delivers an exceptional audio experience while boasting a sleek and modern design.
+        <span><h4><h4>The Susma ProMax is a premium smartphone specifically designed to cater to the needs and preferences of gamers, offering a high-performance mobile gaming experience. It combines cutting-edge technology, powerful hardware, and gamer-centric features to elevate mobile gaming to new heights.</h4>
         
-        Key Features:
+        <p><b>Key Features:</b></p>
         <ul>
-            <li>Immersive Sound Quality: Experience audio like never before with the Susma Chadphone's immersive sound quality. Equipped with high-fidelity drivers, it delivers crystal-clear highs, rich mids, and deep bass, allowing you to enjoy your favorite music with exceptional clarity and depth.</li>
-            <li>Wireless Convenience: Say goodbye to tangled wires and enjoy the freedom of wireless connectivity. The Susma Chadphone features Bluetooth 5.0 technology, enabling seamless pairing with your smartphone, tablet, or other Bluetooth-enabled devices. Whether you're working out, commuting, or simply relaxing at home, you can enjoy your music without the hassle of wires.</li>
-            <li>Comfortable Fit: The Susma Chadphone is designed with comfort in mind. The adjustable headband and soft, cushioned ear cups provide a snug and comfortable fit, ensuring long-lasting comfort even during extended listening sessions. The lightweight construction further enhances the wearing experience, making it ideal for all-day use.</li>
-            <li>Long Battery Life: With the Susma Chadphone, you can enjoy your favorite tunes for extended periods without worrying about battery life. The built-in rechargeable battery offers an impressive playback time of up to 20 hours on a single charge, keeping you entertained throughout the day. And when it's time to recharge, simply connect the included USB cable and power up in no time.</li>
+            <li><b>Design:</b> <br>The Susma ProMax features a sleek and futuristic design, crafted with premium materials to ensure durability and aesthetics. It has a comfortable grip and ergonomic design, allowing gamers to hold and operate the phone with ease during extended gaming sessions. The device incorporates LED lighting accents and customizable RGB lighting, adding a touch of gaming flair.</li>
+            <li><b>Display and Performance:</b> <br>The Susma ProMax boasts a large, high-resolution display with a high refresh rate, providing smooth and immersive visuals. The screen utilizes advanced display technologies, such as HDR support and adaptive refresh rates, to deliver vibrant colors and crisp details during gaming sessions. The phone is powered by a top-of-the-line processor and ample RAM, ensuring seamless performance and swift multitasking capabilities.</li>
+            <li><b>Gamer-centric Features:</b> <br>The Susma ProMax is equipped with a range of features tailored to enhance the gaming experience. It offers dedicated gaming modes and optimization settings that prioritize performance, minimize distractions, and reduce latency. The phone also incorporates advanced cooling mechanisms, such as vapor chambers or heat sinks, to prevent overheating during intense gaming sessions.</li>
+            <li><b>Controls and Input:</b> <br>Recognizing the importance of precise controls, the Susma ProMax provides customizable buttons and triggers specifically designed for gaming. These physical controls can be mapped to specific in-game functions, allowing gamers to have more precise control over their gameplay. Additionally, the device supports external gaming controllers and accessories for those who prefer a traditional console-like experience.</li>
         </ul>
         </span>
     </div>
