@@ -24,11 +24,13 @@
     <div class="content">
         <div class="contacts">
             <h2 id="contactinfo">Contact us here!</h2>
-            <ul>
+            <ul class="social">
                 <li><a href=""><i class="fa-brands fa-facebook-messenger"></i>Messenger</a></li>
                 <li><a href=""><i class="fa-brands fa-facebook"></i>Susma Limited. Co</a></li>
                 <li><a href=""><i class="fa-brands fa-x-twitter"></i>@SusmaCo</a></li>
                 <li><a href="mailto:sus@baka.com"><i class="fa-solid fa-envelope"></i>Email us</a></li>
+            </ul>
+            <ul class="info">
                 <li>Address: Inside your wall</li>
                 <li>Phone Number: idk ._.</li>
                 <li>Email: Arthaloith@gmail.com</li>
