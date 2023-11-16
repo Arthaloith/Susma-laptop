@@ -40,42 +40,36 @@ if ($row = mysqli_fetch_assoc($result)) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Profile Page</title>
+    <title>Update Profile</title>
     <!-- Add your CSS stylesheets and other necessary HTML head elements -->
-    <link rel="stylesheet" type="text/css" href="../css/template/base.css">
+    <linkrel="stylesheet" type="text/css" href="../css/template/base.css">
     <link rel="stylesheet" type="text/css" href="../css/template/header.css">
     <link rel="stylesheet" type="text/css" href="../css/template/footer.css">
-    <link rel="stylesheet" type="text/css" href="../css/home.css">
-    <link rel="stylesheet" type="text/css" href="../css/profile.css">
+    <link rel="stylesheet" type="text/css" href="../css/update-profile.css">
     <script src="https://kit.fontawesome.com/f1e51c2d13.js" crossorigin="anonymous"></script>
-    <script src="../js/confirmdel.js"></script>
-    <script src="../js/clock.js"></script>
 </head>
 <body style="background-image: url(../assets/bg2.jpg);">
 <br>
 <br>
     <div class="container">
-        <h1 class="heading">Profile Page</h1>
+        <h1 class="heading">Update Profile</h1>
         <div class="profile">
-            <h2 class="welcome">Welcome, <?php echo $name; ?>!</h2>
-            <div class="info">
-                <p><strong>Name:</strong> <?php echo $name; ?></p>
-                <p><strong>Email:</strong> <?php echo $email; ?></p>
-                <p><strong>Username:</strong> <?php echo $username; ?></p>
-            </div>
-            <form method="POST" action="../incl/delacc.php" onsubmit="return confirmDelete();">
-                <button type="submit" name="delete_account" class="delete-account-button">Delete Account</button>
-            </form>
-            <form method="GET" action="update-profile.php">
+            <form action="../incl/update-profile.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" value="<?php echo $name; ?>" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" value="<?php echo $email; ?>" required>
+                </div>
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" value="<?php echo $username; ?>" required>
+                </div>
                 <button type="submit" name="update_profile" class="update-profile-button">Update Profile</button>
             </form>
         </div>
-    </div>
-
-    <div class="clock-container">
-        <h2 class="clock-heading">Random Clock</h2>
-        <div id="clock" class="clock"></div>
-        <div id="digital-clock"></div>
     </div>
     <br>
     <br><br>
